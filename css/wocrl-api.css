@@ -1,0 +1,156 @@
+/**
+ * --------------------------------------------------------------------------------------------------------------------
+ * League Tables
+ * --------------------------------------------------------------------------------------------------------------------
+ **/
+/*#region League Tables */
+.wocrl_league_output .table-scroll {
+    position:relative;
+    margin:auto;
+    overflow:hidden;
+    border:none;
+}
+.wocrl_league_output .table-wrap {
+    width:100%;
+    overflow:auto;
+}
+.wocrl_league_output .table-scroll table {
+    width:100%;
+    margin:auto;
+    border-collapse:separate;
+    border-spacing:0;
+    border: 0;
+}
+.wocrl_league_output .table-scroll th, .wocrl_league_output .table-scroll td {
+    padding:5px 10px;
+    white-space:nowrap;
+    vertical-align:top;
+    border:0;
+}
+.wocrl_league_output .table-scroll td {
+    text-align: center;
+}
+.wocrl_league_output .table-scroll td.fixed-side {
+    text-align: left;
+}
+.wocrl_league_output .table-scroll tr:nth-child(odd) {
+    background: #ECF0F5;
+}
+.wocrl_league_output .table-scroll tr:nth-child(even) {
+    background: #DBDBDB;
+}
+.wocrl_league_output .table-scroll tr:nth-child(even) td:nth-child(odd) {
+    background: #e0e1e3;
+}
+.wocrl_league_output .table-scroll thead th {
+    background: #f5f7fa;
+}
+.wocrl_league_output .clone {
+    position:absolute;
+    top:0;
+    left:0;
+    pointer-events:none;
+}
+.wocrl_league_output .clone th, .wocrl_league_output .clone td {
+    visibility:hidden
+}
+.wocrl_league_output .clone td, .wocrl_league_output .clone th {
+    border-color:transparent
+}
+.wocrl_league_output .clone tbody th {
+    visibility:visible;
+    color:red;
+}
+.wocrl_league_output .clone .fixed-side {
+    visibility:visible;
+}
+.wocrl_league_output .clone thead, .wocrl_league_output .clone tfoot{background:transparent;}
+
+.wocrl_league_output .scroll_buttons button {
+    width: auto;
+    background: #e2e2e2;
+    border: 0px;
+    box-shadow: none;
+    padding: 8px 20px;
+    float:left;
+}
+.wocrl_league_output .scroll_buttons button.right-scroll {
+    float: right;
+}
+.wocrl_league_output .table-scroll tr.highlight {
+    background: #d01a3f;
+    color:#fff;
+}
+.wocrl_league_output .table-scroll tr.highlight td:nth-child(odd) {
+    background: #e03453;
+}
+.wocrl_league_output form#raceLeagueFilter, .wocrl_league_output form#raceLeagueSearch {
+    display: none;
+}
+.wocrl_league_output .action-buttons .two-thirds {
+    float: left;
+    width: 85%;
+    margin-right: 0%;
+}
+.wocrl_league_output .action-buttons .one-third {
+    float: left;
+    width: 15%;
+}
+.wocrl_league_output .tablesorter-default thead .headerSortUp, .wocrl_league_output .tablesorter-default thead .tablesorter-headerSortUp, .wocrl_league_output .tablesorter-default thead .tablesorter-headerAsc {
+    background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7);
+}
+.wocrl_league_output .tablesorter-default thead .headerSortDown, .wocrl_league_output .tablesorter-default thead .tablesorter-headerSortDown, .wocrl_league_output .tablesorter-default thead .tablesorter-headerDesc {
+    background-image: url(data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7);
+}
+
+.wocrl_league_output .tablesorter-default .header, .wocrl_league_output .tablesorter-default .tablesorter-header {
+    background-image: url(data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw==);
+    background-position: center right;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.wocrl_league_output .tablesorter-header-inner {
+    padding-right: 10px;
+}
+.wocrl_league_output .table-scroll.personal-fr-data-table th, .wocrl_league_output .table-scroll.personal-fr-data-table td {
+    min-width: 155px;
+}
+.wocrl_league_output .league_tables .scroll_buttons {
+    text-align: center;
+}
+.wocrl_league_output .filters {
+    margin-top: 20px;
+}
+.wocrl_league_output .filters .columns-2 .item {
+    width:28%;
+    float:left;
+    margin-right: 2%;
+}
+.wocrl_league_output .filters .columns-2 .item:nth-child(2n) {
+    margin-right: 2%;
+    width: 68%;
+}
+.wocrl_league_output .filters .columns-2 .item button {
+    width: 100%;
+}
+.wocrl_league_output .filters .columns-1 .item {
+    width: 100%;
+}
+.wocrl_league_output .filters .columns-1 .item button {
+    width: 100%;
+}
+.wocrl_league_output button.search_league_table {
+    width: 100%;
+}
+.wocrl_league_output .filters form select, .wocrl_league_output .filters form button, .wocrl_league_output .filters form input {
+    width: 100%;
+    margin-top: 20px;
+}
+.wocrl_league_output .filters form a.clear_filters {
+    width: 100%;
+    text-align: center;
+}
+.wocrl_league_output .league_tables h2.league-name {
+    text-align: center;
+}
+/*#endregion */
